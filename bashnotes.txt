@@ -1,0 +1,24 @@
+Relative Path
+./ to stay in a folder for relative path
+from pig to frog
+ ../c/frog.html
+ 
+ bash codes: 
+ pwd = shows working directory (present working directory)
+ cd  ~ = jump to user home (change directory)
+ ls = list of everything in directory
+ ls --help = gives detailed info of command
+ clear = clear stuff on screan or ctr + i
+ echo "hello world" = prints hello world 
+ echo "Hello World" > hello-world.txt = makes doc and adds text
+ cat hello-world.txt = prints out all the text in hello-world.txt
+ echo "hello globe" >> hello-world.txt = append onto the doc
+ grep world hello-world.txt = prints line with the word "world"
+ rm -r day_1/ = -r indicates delete everything in folder
+ head "hello world" = prints first 10 lines (-n number of lines)
+ tail = prints last 10 lines
+ touch = allows you to modify the timestamp of a file??????
+ touch example-file-created-with-touch.txt = creates file 
+ mv example-file-created-with-touch.txt ./day-1/file-created-with-touch-and-move = moves file into location
+ cp = copy command creates copy at specific file location. 
+ rm = remove (-rf) is dangerous
